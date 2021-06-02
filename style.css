@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 18px;
+}
+
+.front_page{
+    margin: 50px auto;
+}
+
+#header,.content_header{
+    font-weight: 300;
+    font-size: 60px;
+}
+
+.nav_tabs_1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.nav_tabs_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content{
+    padding: 20px;
+    cursor: pointer;
+}
+
+.year_of_made{
+    margin-top: 300px;
+}
+
+#za4em_text{
+    width: 800px;
+    margin: 0px auto;
+}
+
+.page_switch{
+    display: flex;
+    justify-content: center;
+}
+
+.switch1,.switch2{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.content_header{
+    text-align: left;
+    margin: 0px auto;
+    width: 800px;
+}
