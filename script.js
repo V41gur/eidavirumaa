@@ -27,7 +27,6 @@ let wasteButton = document.querySelector("#waste")
 let eco_lableText = document.querySelector(".eco_lable_text")
 let eco_lableButton = document.querySelector("#eco_lable")
 
-
 let header1 = document.querySelector(".header_1")
 let header2 = document.querySelector(".header_2")
 
@@ -44,6 +43,7 @@ energyText.style.display = 'none';
 water_managmentText.style.display = 'none';
 wasteText.style.display = 'none';
 eco_lableText.style.display = 'none';
+switch2.style.opacity = "0.3"
 
 introductionButton.addEventListener("click", function () {
     introductionText.style.display = 'block';
@@ -82,11 +82,15 @@ sustainablegrowthButton.addEventListener("click", function () {
 switch1.addEventListener("click", function () {
     susgrowthText1.style.display = 'block';
     susgrowthText2.style.display = 'none';
+    switch1.style.opacity = "1"
+    switch2.style.opacity = "0.3"
 })
 
 switch2.addEventListener("click", function () {
     susgrowthText2.style.display = 'block';
     susgrowthText1.style.display = 'none';
+    switch1.style.opacity = "0.3"
+    switch2.style.opacity = "1"
 })
 
 envManagementButton.addEventListener("click", function () {
@@ -258,3 +262,22 @@ eco_lableButton.addEventListener("click", function () {
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
 })
+
+document.querySelectorAll('.close').forEach(item => {
+    item.addEventListener('click', event => {
+        introductionText.style.display = 'none';
+        sustainablegrowthText.style.display = 'none';
+        envManagementText.style.display = 'none';
+        header1.style.display = 'block';
+        header2.style.display = 'block';
+        envSecurityText.style.display = 'none';
+        reservoirsText.style.display = 'none';
+        fishingText.style.display = 'none';
+        forestryText.style.display = 'none';
+        airenv_conditionText.style.display = 'none';
+        energyText.style.display = 'none';
+        water_managmentText.style.display = 'none';
+        wasteText.style.display = 'none';
+        eco_lableText.style.display = 'none';
+    })
+  })
