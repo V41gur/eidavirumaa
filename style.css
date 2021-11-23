@@ -58,7 +58,8 @@ p {
 }
 
 .switch1,
-.switch2 {
+.switch2,
+#reserveswitch {
     margin-left: 10px;
     margin-right: 10px;
     cursor: pointer;

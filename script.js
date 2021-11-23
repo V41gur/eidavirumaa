@@ -2,10 +2,26 @@ let introductionButton = document.querySelector("#introduction")
 let introductionText = document.querySelector(".inroduction_text")
 let sustainablegrowthText = document.querySelector(".sustainablegrowth")
 let sustainablegrowthButton = document.querySelector("#sustainable_growth")
+let reserveText = document.querySelector(".reserve")
+let reserveButton = document.querySelector("#reserve")
 let susgrowthText1 = document.querySelector(".susgrowth_text_1")
 let susgrowthText2 = document.querySelector(".susgrowth_text_2")
+let reserveText1 = document.querySelector(".reserve_text_1")
+let reserveText2 = document.querySelector(".reserve_text_2")
+let reserveText3 = document.querySelector(".reserve_text_3")
+let reserveText4 = document.querySelector(".reserve_text_4")
+let reserveText5 = document.querySelector(".reserve_text_5")
+let reserveText6 = document.querySelector(".reserve_text_6")
+let reserveText7 = document.querySelector(".reserve_text_7")
 let switch1 = document.querySelector(".switch1")
 let switch2 = document.querySelector(".switch2")
+let reserveswitch1 = document.querySelector(".reserveswitch1")
+let reserveswitch2 = document.querySelector(".reserveswitch2")
+let reserveswitch3 = document.querySelector(".reserveswitch3")
+let reserveswitch4 = document.querySelector(".reserveswitch4")
+let reserveswitch5 = document.querySelector(".reserveswitch5")
+let reserveswitch6 = document.querySelector(".reserveswitch6")
+let reserveswitch7 = document.querySelector(".reserveswitch7")
 let envManagementText = document.querySelector(".env_management_text")
 let envManagementButton = document.querySelector("#env_management")
 let envSecurityText = document.querySelector(".env_security_text")
@@ -43,7 +59,20 @@ energyText.style.display = 'none';
 water_managmentText.style.display = 'none';
 wasteText.style.display = 'none';
 eco_lableText.style.display = 'none';
+reserveText.style.display = 'none'
+reserveText2.style.display = 'none'
+reserveText3.style.display = 'none'
+reserveText4.style.display = 'none'
+reserveText5.style.display = 'none'
+reserveText6.style.display = 'none'
+reserveText7.style.display = 'none'
 switch2.style.opacity = "0.3"
+reserveswitch2.style.opacity = "0.3"
+reserveswitch3.style.opacity = "0.3"
+reserveswitch4.style.opacity = "0.3"
+reserveswitch5.style.opacity = "0.3"
+reserveswitch6.style.opacity = "0.3"
+reserveswitch7.style.opacity = "0.3"
 
 introductionButton.addEventListener("click", function () {
     introductionText.style.display = 'block';
@@ -60,6 +89,7 @@ introductionButton.addEventListener("click", function () {
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
     eco_lableText.style.display = 'none';
+    reserveText.style.display = 'none';
 })
 
 sustainablegrowthButton.addEventListener("click", function () {
@@ -77,6 +107,7 @@ sustainablegrowthButton.addEventListener("click", function () {
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
     eco_lableText.style.display = 'none';
+    reserveText.style.display = 'none';
 })
 
 switch1.addEventListener("click", function () {
@@ -91,6 +122,142 @@ switch2.addEventListener("click", function () {
     susgrowthText1.style.display = 'none';
     switch1.style.opacity = "0.3"
     switch2.style.opacity = "1"
+})
+
+reserveButton.addEventListener("click", function () {
+    sustainablegrowthText.style.display = 'none';
+    introductionText.style.display = 'none';
+    envManagementText.style.display = 'none';
+    header1.style.display = 'none';
+    header2.style.display = 'none';
+    envSecurityText.style.display = 'none';
+    reservoirsText.style.display = 'none';
+    fishingText.style.display = 'none';
+    forestryText.style.display = 'none';
+    airenv_conditionText.style.display = 'none';
+    energyText.style.display = 'none';
+    water_managmentText.style.display = 'none';
+    wasteText.style.display = 'none';
+    eco_lableText.style.display = 'none';
+    reserveText.style.display = 'block';
+})
+
+reserveswitch1.addEventListener("click", function () {
+    reserveText1.style.display = 'block';
+    reserveText2.style.display = 'none';
+    reserveText3.style.display = 'none';
+    reserveText4.style.display = 'none';
+    reserveText5.style.display = 'none';
+    reserveText6.style.display = 'none';
+    reserveText7.style.display = 'none';
+    reserveswitch1.style.opacity = "1"
+    reserveswitch2.style.opacity = "0.3"
+    reserveswitch3.style.opacity = "0.3"
+    reserveswitch4.style.opacity = "0.3"
+    reserveswitch5.style.opacity = "0.3"
+    reserveswitch6.style.opacity = "0.3"
+    reserveswitch7.style.opacity = "0.3"
+})
+
+reserveswitch2.addEventListener("click", function () {
+    reserveText1.style.display = 'none';
+    reserveText2.style.display = 'block';
+    reserveText3.style.display = 'none';
+    reserveText4.style.display = 'none';
+    reserveText5.style.display = 'none';
+    reserveText6.style.display = 'none';
+    reserveText7.style.display = 'none';
+    reserveswitch1.style.opacity = "0.3"
+    reserveswitch2.style.opacity = "1"
+    reserveswitch3.style.opacity = "0.3"
+    reserveswitch4.style.opacity = "0.3"
+    reserveswitch5.style.opacity = "0.3"
+    reserveswitch6.style.opacity = "0.3"
+    reserveswitch7.style.opacity = "0.3"
+})
+
+reserveswitch3.addEventListener("click", function () {
+    reserveText1.style.display = 'none';
+    reserveText2.style.display = 'none';
+    reserveText3.style.display = 'block';
+    reserveText4.style.display = 'none';
+    reserveText5.style.display = 'none';
+    reserveText6.style.display = 'none';
+    reserveText7.style.display = 'none';
+    reserveswitch1.style.opacity = "0.3"
+    reserveswitch2.style.opacity = "0.3"
+    reserveswitch3.style.opacity = "1"
+    reserveswitch4.style.opacity = "0.3"
+    reserveswitch5.style.opacity = "0.3"
+    reserveswitch6.style.opacity = "0.3"
+    reserveswitch7.style.opacity = "0.3"
+})
+
+reserveswitch4.addEventListener("click", function () {
+    reserveText1.style.display = 'none';
+    reserveText2.style.display = 'none';
+    reserveText3.style.display = 'none';
+    reserveText4.style.display = 'block';
+    reserveText5.style.display = 'none';
+    reserveText6.style.display = 'none';
+    reserveText7.style.display = 'none';
+    reserveswitch1.style.opacity = "0.3"
+    reserveswitch2.style.opacity = "0.3"
+    reserveswitch3.style.opacity = "0.3"
+    reserveswitch4.style.opacity = "1"
+    reserveswitch5.style.opacity = "0.3"
+    reserveswitch6.style.opacity = "0.3"
+    reserveswitch7.style.opacity = "0.3"
+})
+reserveswitch5.addEventListener("click", function () {
+    reserveText1.style.display = 'none';
+    reserveText2.style.display = 'none';
+    reserveText3.style.display = 'none';
+    reserveText4.style.display = 'none';
+    reserveText5.style.display = 'block';
+    reserveText6.style.display = 'none';
+    reserveText7.style.display = 'none';
+    reserveswitch1.style.opacity = "0.3"
+    reserveswitch2.style.opacity = "0.3"
+    reserveswitch3.style.opacity = "0.3"
+    reserveswitch4.style.opacity = "0.3"
+    reserveswitch5.style.opacity = "1"
+    reserveswitch6.style.opacity = "0.3"
+    reserveswitch7.style.opacity = "0.3"
+})
+
+reserveswitch6.addEventListener("click", function () {
+    reserveText1.style.display = 'none';
+    reserveText2.style.display = 'none';
+    reserveText3.style.display = 'none';
+    reserveText4.style.display = 'none';
+    reserveText5.style.display = 'none';
+    reserveText6.style.display = 'block';
+    reserveText7.style.display = 'none';
+    reserveswitch1.style.opacity = "0.3"
+    reserveswitch2.style.opacity = "0.3"
+    reserveswitch3.style.opacity = "0.3"
+    reserveswitch4.style.opacity = "0.3"
+    reserveswitch5.style.opacity = "0.3"
+    reserveswitch6.style.opacity = "1"
+    reserveswitch7.style.opacity = "0.3"
+})
+
+reserveswitch7.addEventListener("click", function () {
+    reserveText1.style.display = 'none';
+    reserveText2.style.display = 'none';
+    reserveText3.style.display = 'none';
+    reserveText4.style.display = 'none';
+    reserveText5.style.display = 'none';
+    reserveText6.style.display = 'none';
+    reserveText7.style.display = 'block';
+    reserveswitch1.style.opacity = "0.3"
+    reserveswitch2.style.opacity = "0.3"
+    reserveswitch3.style.opacity = "0.3"
+    reserveswitch4.style.opacity = "0.3"
+    reserveswitch5.style.opacity = "0.3"
+    reserveswitch6.style.opacity = "0.3"
+    reserveswitch7.style.opacity = "1"
 })
 
 envManagementButton.addEventListener("click", function () {
@@ -108,6 +275,7 @@ envManagementButton.addEventListener("click", function () {
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
     eco_lableText.style.display = 'none';
+    reserveText.style.display = 'none';
 })
 
 envSecurityButton.addEventListener("click", function () {
@@ -125,6 +293,7 @@ envSecurityButton.addEventListener("click", function () {
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
     eco_lableText.style.display = 'none';
+    reserveText.style.display = 'none';
 })
 
 reservoirsButton.addEventListener("click", function () {
@@ -142,6 +311,7 @@ reservoirsButton.addEventListener("click", function () {
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
     eco_lableText.style.display = 'none';
+    reserveText.style.display = 'none';
 })
 
 fishingButton.addEventListener("click", function () {
@@ -159,6 +329,7 @@ fishingButton.addEventListener("click", function () {
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
     eco_lableText.style.display = 'none';
+    reserveText.style.display = 'none';
 })
 
 forestryButton.addEventListener("click", function () {
@@ -176,6 +347,7 @@ forestryButton.addEventListener("click", function () {
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
     eco_lableText.style.display = 'none';
+    reserveText.style.display = 'none';
 })
 
 airenv_conditionButton.addEventListener("click", function () {
@@ -193,6 +365,7 @@ airenv_conditionButton.addEventListener("click", function () {
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
     eco_lableText.style.display = 'none';
+    reserveText.style.display = 'none';
 })
 
 energyButton.addEventListener("click", function () {
@@ -210,6 +383,7 @@ energyButton.addEventListener("click", function () {
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
     eco_lableText.style.display = 'none';
+    reserveText.style.display = 'none';
 })
 
 water_managmentButton.addEventListener("click", function () {
@@ -227,6 +401,7 @@ water_managmentButton.addEventListener("click", function () {
     header2.style.display = 'none';
     wasteText.style.display = 'none';
     eco_lableText.style.display = 'none';
+    reserveText.style.display = 'none';
 })
 
 wasteButton.addEventListener("click", function () {
@@ -244,6 +419,7 @@ wasteButton.addEventListener("click", function () {
     energyText.style.display = 'none';
     water_managmentText.style.display = 'none';
     eco_lableText.style.display = 'none';
+    reserveText.style.display = 'none';
 })
 
 eco_lableButton.addEventListener("click", function () {
@@ -261,6 +437,7 @@ eco_lableButton.addEventListener("click", function () {
     energyText.style.display = 'none';
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
+    reserveText.style.display = 'none';
 })
 
 document.querySelectorAll('.close').forEach(item => {
@@ -279,5 +456,6 @@ document.querySelectorAll('.close').forEach(item => {
         water_managmentText.style.display = 'none';
         wasteText.style.display = 'none';
         eco_lableText.style.display = 'none';
+        reserveText.style.display = 'none';
     })
   })
