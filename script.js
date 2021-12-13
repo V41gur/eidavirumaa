@@ -458,4 +458,4 @@ document.querySelectorAll('.close').forEach(item => {
         eco_lableText.style.display = 'none';
         reserveText.style.display = 'none';
     })
-  })
+})
