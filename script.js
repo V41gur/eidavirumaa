@@ -40,8 +40,6 @@ let water_managmentText = document.querySelector(".water_managment_text")
 let water_managmentButton = document.querySelector("#water_managment")
 let wasteText = document.querySelector(".waste_text")
 let wasteButton = document.querySelector("#waste")
-let eco_lableText = document.querySelector(".eco_lable_text")
-let eco_lableButton = document.querySelector("#eco_lable")
 let imagesZap1 = document.querySelector("#zap1")
 let imagesZap2 = document.querySelector("#zap2")
 let imagesZap3 = document.querySelector("#zap3")
@@ -66,7 +64,6 @@ airenv_conditionText.style.display = 'none';
 energyText.style.display = 'none';
 water_managmentText.style.display = 'none';
 wasteText.style.display = 'none';
-eco_lableText.style.display = 'none';
 reserveText.style.display = 'none'
 reserveText2.style.display = 'none'
 reserveText3.style.display = 'none'
@@ -101,7 +98,6 @@ introductionButton.addEventListener("click", function () {
     energyText.style.display = 'none';
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
-    eco_lableText.style.display = 'none';
     reserveText.style.display = 'none';
 })
 
@@ -118,7 +114,6 @@ sustainablegrowthButton.addEventListener("click", function () {
     energyText.style.display = 'none';
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
-    eco_lableText.style.display = 'none';
     reserveText.style.display = 'none';
 })
 
@@ -149,7 +144,6 @@ reserveButton.addEventListener("click", function () {
     energyText.style.display = 'none';
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
-    eco_lableText.style.display = 'none';
     reserveText.style.display = 'block';
 })
 
@@ -333,7 +327,6 @@ envManagementButton.addEventListener("click", function () {
     energyText.style.display = 'none';
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
-    eco_lableText.style.display = 'none';
     reserveText.style.display = 'none';
 })
 
@@ -350,7 +343,6 @@ envSecurityButton.addEventListener("click", function () {
     energyText.style.display = 'none';
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
-    eco_lableText.style.display = 'none';
     reserveText.style.display = 'none';
 })
 
@@ -367,7 +359,6 @@ reservoirsButton.addEventListener("click", function () {
     energyText.style.display = 'none';
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
-    eco_lableText.style.display = 'none';
     reserveText.style.display = 'none';
 })
 
@@ -384,7 +375,6 @@ fishingButton.addEventListener("click", function () {
     energyText.style.display = 'none';
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
-    eco_lableText.style.display = 'none';
     reserveText.style.display = 'none';
 })
 
@@ -401,7 +391,6 @@ forestryButton.addEventListener("click", function () {
     energyText.style.display = 'none';
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
-    eco_lableText.style.display = 'none';
     reserveText.style.display = 'none';
 })
 
@@ -418,7 +407,6 @@ airenv_conditionButton.addEventListener("click", function () {
     energyText.style.display = 'none';
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
-    eco_lableText.style.display = 'none';
     reserveText.style.display = 'none';
 })
 
@@ -435,7 +423,6 @@ energyButton.addEventListener("click", function () {
     header.style.display = 'none';
     water_managmentText.style.display = 'none';
     wasteText.style.display = 'none';
-    eco_lableText.style.display = 'none';
     reserveText.style.display = 'none';
 })
 
@@ -452,7 +439,6 @@ water_managmentButton.addEventListener("click", function () {
     envManagementText.style.display = 'none';
     header.style.display = 'none';
     wasteText.style.display = 'none';
-    eco_lableText.style.display = 'none';
     reserveText.style.display = 'none';
 })
 
@@ -469,24 +455,6 @@ wasteButton.addEventListener("click", function () {
     airenv_conditionText.style.display = 'none';
     energyText.style.display = 'none';
     water_managmentText.style.display = 'none';
-    eco_lableText.style.display = 'none';
-    reserveText.style.display = 'none';
-})
-
-eco_lableButton.addEventListener("click", function () {
-    eco_lableText.style.display = 'block';
-    introductionText.style.display = 'none';
-    sustainablegrowthText.style.display = 'none';
-    envManagementText.style.display = 'none';
-    header.style.display = 'none';
-    envSecurityText.style.display = 'none';
-    reservoirsText.style.display = 'none';
-    fishingText.style.display = 'none';
-    forestryText.style.display = 'none';
-    airenv_conditionText.style.display = 'none';
-    energyText.style.display = 'none';
-    water_managmentText.style.display = 'none';
-    wasteText.style.display = 'none';
     reserveText.style.display = 'none';
 })
 
@@ -504,7 +472,6 @@ document.querySelectorAll('.close').forEach(item => {
         energyText.style.display = 'none';
         water_managmentText.style.display = 'none';
         wasteText.style.display = 'none';
-        eco_lableText.style.display = 'none';
         reserveText.style.display = 'none';
     })
 })
