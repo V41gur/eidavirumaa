@@ -47,6 +47,10 @@ let imagesZap4 = document.querySelector("#zap4")
 let imagesZap5 = document.querySelector("#zap5")
 let imagesZap6 = document.querySelector("#zap6")
 let imagesZap7 = document.querySelector("#zap7")
+let imgRazv1 = document.querySelector("#sir_razv1")
+let imgRazv2 = document.querySelector("#sir_razv2")
+let imgRazv3 = document.querySelector("#sir_razv3")
+let imgRazv4 = document.querySelector("#sir_razv4")
 
 let header1 = document.querySelector(".header_1")
 let header2 = document.querySelector(".header_2")
@@ -122,6 +126,11 @@ switch1.addEventListener("click", function () {
     susgrowthText2.style.display = 'none';
     switch1.style.opacity = "1"
     switch2.style.opacity = "0.3"
+    imgRazv1.src='imgs/scale_1200.jpg';
+    imgRazv2.src='imgs/60bf6c9102e8bd4aa65e4aa8.jpg';
+    imgRazv3.src='imgs/anuncios-de-boris-johnson-912210.jpg';
+    imgRazv4.src='imgs/56634335-670-0.jpg';
+    imgRazv4.style.display = "block"
 })
 
 switch2.addEventListener("click", function () {
@@ -129,6 +138,10 @@ switch2.addEventListener("click", function () {
     susgrowthText1.style.display = 'none';
     switch1.style.opacity = "0.3"
     switch2.style.opacity = "1"
+    imgRazv1.src='/imgs/Tayfun-Plus-EBRD.webp';
+    imgRazv2.src='/imgs/1860x1050-people.webp';
+    imgRazv3.src='/imgs/uborka_musora_0.jpg';
+    imgRazv4.style.display = "none"
 })
 
 reserveButton.addEventListener("click", function () {
